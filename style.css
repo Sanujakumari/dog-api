@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rosybrown;
+}
+select{
+    font-size: large;
+    color: rgb(187, 14, 52);
+}
+.slide{
+    flex: 10;
+    background-color: bisque;
+}
+.header{
+    text-align: center;
+    color:rgb(58, 3, 3);
+}
+h1{
+    color: darkred;
+}
+.image{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+background-repeat: no-repeat;
+}

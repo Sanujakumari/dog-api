@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>Welcome to my Dog Collection</h1>
+            <img src="https://dog.ceo/img/dog-api-logo.svg" id="thisImg" height="160" size="150" alt="cat" onclick="image(this)"> 
+
+            <h4>Choose any to find the image</h4>
+            <div id="breed"></div>
+        </div>
+        <div class="slide" id="slide">
+        </div>
+    </div>
+        <script type="text/javascript"> 
+            function image(img) { 
+                var src = img.src; 
+                window.open(src); 
+            } 
+            </script> 
+            <!-- <img src="https://cataas.com/cat/orange" id="thisImg2" height="50" size="50" alt="cat" onclick="image(this)">  -->
+    
+    
+   
+    <script src="script.js"></script>
+  </body>
+</html>
